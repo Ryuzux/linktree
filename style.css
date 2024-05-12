@@ -1,0 +1,52 @@
+body {
+    background:linear-gradient(to top,rgb(73, 151, 220), rgb(41, 17, 197));
+    color: #f5f3f3;
+    text-align: center;
+    height:100vh;
+
+}
+h1 {
+    color: #ec092b;
+    font-size: 50px;
+}
+p {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#f5f5f6;
+    display: flex; 
+    align-items: center;
+}
+
+.round-img{
+    width: 100px; 
+            height: 100px; 
+            border-radius: 50%;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+}
+
+.table {
+    border: none; /* Menghilangkan border luar */
+    border-collapse: separate; /* Pastikan border antara sel tidak terpengaruh */
+    margin: auto;
+    border-spacing:15px;
+    width:500px;
+
+}
+.row{
+    border: 2px solid black; /* Border pada sel */
+    border-radius: 15px; /* Membuat sudut melengkung */
+    padding: 5px; /* Padding dalam sel */
+    background-color: #b49d9d;
+    color: #fffefe;
+
+}
+
+.no-underline {
+    text-decoration: none; /* Menghilangkan garis bawah */
+    color: #f5f5f6; /* Mengubah warna tautan ke warna yang diinginkan */
+}
